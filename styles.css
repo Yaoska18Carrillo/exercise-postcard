@@ -1,0 +1,81 @@
+body {
+    background: black;
+}
+* {
+
+    min-height: 10px;
+}
+p {
+    color: #000000;
+    font-size: medium;
+    font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+}
+.postcard {
+    background: white;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+.postcard-header {
+    display: flex;
+}
+.postcard-header img {
+    float: right;
+    width: 60px;
+    height: 50px;
+}
+.postcard-header h1 {
+    float: left;
+    width: x;
+    margin: auto;
+}
+.postcard-body {
+    display: flex;
+}
+.body-left p:first-child {
+    margin-top: 20px;
+}
+.body-left,
+.body-right {
+    padding-top: 7px;
+    
+}
+.body-left{
+    margin-left: 4px;
+}
+.body-right{
+    padding-top: 30px;
+    margin-right: 3px;margin-left: 7px;
+}
+input {
+    display: flex;
+    flex-wrap: nowrap;
+    border-bottom: grey;
+    border: none;
+    text-decoration: grey;
+    text-align: center;
+} 
+
+.postcard-footer{
+
+    padding: 10px; 
+    text-align: center;
+    
+}
+.postcard-footer input[type=button]{
+    border: none;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+    margin-left: 149px;
+    
+    
+}
+input[type=button]:hover{
+background: rgb(83, 80, 80);
+
+}
+.postcard-body input[type=text]{
+    border: none; border-bottom: 1px solid gray;
+}
